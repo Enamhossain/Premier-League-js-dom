@@ -1,0 +1,16 @@
+netfily live  link  And Github private link submit
+different tittle and h1 tag 
+you can use another player picuture use and use any picture 
+select btn use evenhandler add playerName select-v 
+
+budget 1000*5 playerExpenses.innerText 
+calculate total click manager + course + playerExpenses total.innerText
+
+bounse mark 
+you add alert 5 player adding you can't add no more
+code minimum commmit 6ta
+minumum common function evenhandler baire
+namegola Minimum miningfull
+
+
+
