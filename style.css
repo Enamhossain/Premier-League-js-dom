@@ -8,10 +8,29 @@
     max-width: 100%;
     max-height: 100%;
     background-size: cover;
-    padding-bottom: 20%;
+    padding-bottom: 7%;
     
 }
 .text-division{
     position: relative;
     top: 150px;
+}
+.banner-images{
+  position: relative;
+  left:80%;
+  bottom: 10%;
+   width: 10px;
+   height: 0px;
+
+}
+.images-ball {
+    width: 235px;
+    position: relative;
+    left: 180px;
+    top: -190px;
+
+}
+.image-logo{
+  width: 30%;
+  
 }
