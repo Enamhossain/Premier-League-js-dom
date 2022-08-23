@@ -10,7 +10,7 @@ bounse mark
 you add alert 5 player adding you can't add no more
 code minimum commmit 6ta
 minumum common function evenhandler baire
-namegola Minimum miningfull
+namegola miningfull
 
 
 

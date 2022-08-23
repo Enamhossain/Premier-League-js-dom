@@ -38,25 +38,18 @@
     position: relative;
     width:75%;
     background-color: #0D0D0D;
-    border: 2px solid red;
     height: 400px;
 
 }
-.side-text ol{
+.side-text tbody {
     background-color: #0D0D0D;
     padding:0px 100px;
 
 
 }
 
-.side-text ol li{
+.side-text  {
     font-size: 30px;
     
 }
 
-@media screen and (max-width: 992px) {
-    .text-division {
-        position: relative;
-        top: 192px;
-    }
-  }

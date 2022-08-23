@@ -29,12 +29,14 @@ document.getElementById('calcule-btn-total') .addEventListener('click',function(
     const managerInputField = document.getElementById("maneger-inputField")
     const managerInputFieldString = managerInputField.value
     const managerValue = parseInt(managerInputFieldString)
+    managerInputField.value=""
     
  
     const coachInputField = document.getElementById("Coach-inputfield")
     const coachInputFieldString = coachInputField.value
     const coachValue = parseInt(coachInputFieldString)
-
+    coachInputField.value = ""
+ 
    
     const playerExpenses = document.getElementById ('totalExpenses') 
     const totalExpensesPricestring = playerExpenses.innerText;
@@ -46,9 +48,6 @@ document.getElementById('calcule-btn-total') .addEventListener('click',function(
    const totalPrice = playerTotalCalculate;
    totalPrice.innerText = totalValue
 
-   
-
-     
 
  })
 
