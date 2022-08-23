@@ -25,7 +25,7 @@ document.getElementById('calcute-btn').addEventListener('click',function(){
 
 document.getElementById('calcule-btn-total') .addEventListener('click',function(){
    
-     
+     // budget calcuate
     const managerInputField = document.getElementById("maneger-inputField")
     const managerInputFieldString = managerInputField.value
     const managerValue = parseInt(managerInputFieldString)
