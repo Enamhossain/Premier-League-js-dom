@@ -13,7 +13,7 @@
 }
 .text-division{
     position: relative;
-    top: 150px;
+    top: 149px;
 }
 .banner-images{
   position: relative;
@@ -27,10 +27,36 @@
     width: 235px;
     position: relative;
     left: 180px;
-    top: -190px;
+    bottom: 220px;
 
 }
 .image-logo{
   width: 30%;
   
 }
+.side-text {
+    position: relative;
+    width:75%;
+    background-color: #0D0D0D;
+    border: 2px solid red;
+    height: 400px;
+
+}
+.side-text ol{
+    background-color: #0D0D0D;
+    padding:0px 100px;
+
+
+}
+
+.side-text ol li{
+    font-size: 30px;
+    
+}
+
+@media screen and (max-width: 992px) {
+    .text-division {
+        position: relative;
+        top: 192px;
+    }
+  }

@@ -9,12 +9,12 @@
 </head>
   <body>
     <!-- started header section -->
-      <header class="h-100 mt-2">
+      <header class="h-md-100 mt-2">
           <div class="Banner-division text-center">
             <div class="text-division">
                 <h1 class="text-success fs-1 text">Top 5 Premier League Player</h1>
                 <p class="text-white fs-3 w-75 mx-auto ">Liverpool's Mohamed Salah and Sadio Mané, Manchester United's Paul Pogba, Arsenal's Mesut Özil, Chelsea's N'Golo Kanté and Kurt Zouma, and Manchester City's Riyad Mahrez.</p>
-                <img class="image-logo mb-3" src="./img/banner-pic.png" alt="">
+                <img class="image-logo mb-3 img-fluid" src="./img/banner-pic.png" alt="">
             </div>
             <div class="banner-images">
                <img class="images-ball " src="./img/football-removebg-png.png" alt="">
@@ -27,9 +27,9 @@
       </header>
       <!-- end header section -->
       <!-- started main section -->
-      <main class="mt-2 bg-dark d-flex">
+      <main class=" bg-dark d-flex">
         <!-- player side  -->
-         <section class="container">
+         <section class=" p-5">
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                   <div class="card">
@@ -37,7 +37,7 @@
                     <div class="card-body">
                       <h5 class="card-title">Mesut Ozil</h5>
                       <p class="card-text">Best 1 League Player </p>
-                      <button class="btn btn-primary px-5">Select</button>
+                      <button id="player-btn-1"class="btn btn-primary px-5">Select</button>
                     </div>
                   </div>
                 </div>
@@ -73,7 +73,7 @@
                 </div>
                 <div class="col">
                   <div class="card">
-                    <img src="./img/Karim-Benzema.jpg" class="card-img-top" alt="...">
+                    <img class=""src="./img/Karim-Benzema.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Karim-benZema</h5>
                       <p class="card-text">Best-5  League Player</p>
@@ -97,16 +97,35 @@
 
          <!-- side calcute Par -->
          <section class="">
-            <div class=" bg-dark text-white container">
-                <h1>Select-V</h1>
-                <ol class="fs-3" type = "1">
-                    <li> Mesut Ozil </li>
-                    <li> Sadio Mane </li>
-                    <li>Mohammad Salah</li>
-                    <li>Samir-Nasir</li>
-                    <li>Karim-benZema</li>
+            <div class=" text-white container side-text h p-0 mt-5 mx-5">
+                <h1 class="text-center  border-bottom border-info  border-3 "> Select-V</h1>
+                <ol class=" fs-3 text   " type = "1">
+                    <li id="Player-select-1"> Mesut Ozil </li>
+                    <li>SadioMane</li>
+                    <li>MohammadSalah</li>
+                    <li>SamirNasir</li>
+                    <li>KarimbenZema</li>
                 </ol>
             </div>
+
+            <div class="text-white bg-black p-5 w-75 border mx-5 mt-4 h-50">
+               <h1 class="text-center border-bottom border-info  border-3">Budget</h1>
+               <br>
+               <h3>Per player<input id = 'perplayerinputField'class="w-25 mx-5" type="text" value="1000"></h3>
+               <br>
+               <button id='calcute-btn'class="btn btn-primary px-5  mx-5 ">Calculate</button>
+               <br>
+               <h3 class="mt-3 fs-4 mx-3">Player Expenses :$<span id="totalExpenses" class=" ">5000</span></h3>
+               <br>
+               <h3>Manager <input id = "maneger-inputField" class="w-50" type="text" value="2000"></h3>
+               <br>
+               <h3>Coach <input id = "Coach-inputfield"class="w-50" type="text" value="3000"></h3>
+               
+               <button id="calcule-btn-total" class="btn btn-primary  px-5 mx-5">Calcute Total</button>
+               <br>
+                <h2 class="mx-5 d-flex fs-4 mt-2  ">Total: $<Span id ="totalvalue"class="">1000</Span></h2>
+            </div>
+
          </section>
       </main>
 
