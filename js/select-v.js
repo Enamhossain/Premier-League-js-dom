@@ -38,7 +38,10 @@ function displayPlayer(){
 
 function addToPlayerName(element){
     const playerItems= element.parentNode.children[0] .innerText
-     element.style.backgroundColor="#CFCFCF"
+    element.setAttribute('disabled', true);
+    element.style.backgroundColor="#CFCFCF"
+  
+ 
      const player = {
         playerid: playerItems,
         
